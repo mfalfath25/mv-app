@@ -1,8 +1,10 @@
+import BannerImage from "@/assets/banner-1.jpg";
+
 const Banner = () => {
   return (
     <div>
       <img
-        src="src/assets/banner-1.jpg"
+        src={BannerImage}
         alt="Movie Banner"
         className="h-72 w-full object-cover"
       />
